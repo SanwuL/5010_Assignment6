@@ -6,3 +6,7 @@ Sketch link: [(https://editor.p5js.org/SanwuL/sketches/g4BlCZzrJ)]
 
 This project implements a variation of Conway's Game of Life using p5.js.  
 In addition to the original rules, each cell records how long it has been alive or dead. Living cells gradually change color based on their survival time, visualizing the "age" of the cell. Dead cells slowly fade toward black as their death time increases, leaving a temporary visual trace of past activity. This variation highlights the temporal dynamics of the system and makes patterns easier to observe over time.
+
+Color rules: living cells shift hue as `aliveTime` increases, while dead cells decrease in brightness according to `deadTime`.
+
+Controls: press **Space** to start/pause the simulation, **R** to randomize the grid, and **C** to clear the grid.
